@@ -345,6 +345,9 @@
   .right {
     margin-left: auto;
   }
+  .left {
+    flex-direction: row-reverse;
+  }
   .two-section {
     padding: 45px 0;
   }
