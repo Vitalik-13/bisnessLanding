@@ -240,6 +240,7 @@
   .main-title {
     line-height: 55px;
     padding-top: 13px;
+    padding-right: 0;
     padding-bottom: 15px;
     text-align: center;
   }
@@ -277,6 +278,11 @@
     margin-bottom: 190px;
     position: relative;
     z-index: -1;
+  }
+  @media (max-width: 500px) {
+    .absolute-foto-wrapper {
+      top: 24%;
+    }
   }
 }
 /* one-section-end */
