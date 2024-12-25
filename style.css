@@ -757,6 +757,8 @@
   .swiper {
     display: block;
     position: relative;
+    padding-bottom: 150px;
+    background-color: #ffff;
   }
   .swiper-button-prev::after {
     content: "";
@@ -769,7 +771,7 @@
   .swiper-button-prev,
   .swiper-button-next {
     position: absolute;
-    top: 80%;
+    top: 90%;
     width: 43px;
     height: 43px;
     border-radius: 50%;
@@ -780,14 +782,14 @@
     background-image: url("./images/Vector\ 2.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: auto;
   }
   .swiper-button-prev {
     left: 40%;
     background-image: url("./images/Vector\ 1.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: fill;
+    background-size: auto;
   }
   .six-section-img-wrapper-bottom-img {
     display: none;
@@ -795,11 +797,24 @@
   .eight-section-item {
     width: 90%;
     padding-bottom: 46px;
+    height: max-content;
   }
   .swiper-slide {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .six-section-img-wrapper {
+    width: 60%;
+    top: 6px;
+  }
+}
+@media (max-width: 500px) {
+  .swiper-button-prev {
+    left: 30%;
+  }
+  .swiper-button-next {
+    right: 30%;
   }
 }
 /* eight-section-end */
