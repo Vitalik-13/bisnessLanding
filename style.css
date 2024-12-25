@@ -279,10 +279,13 @@
     position: relative;
     z-index: -1;
   }
-  @media (max-width: 500px) {
-    .absolute-foto-wrapper {
-      top: 24%;
-    }
+  .second {
+    z-index: -2;
+  }
+}
+@media (max-width: 500px) {
+  .absolute-foto-wrapper {
+    top: 24%;
   }
 }
 /* one-section-end */
