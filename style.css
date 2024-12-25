@@ -248,11 +248,12 @@
     z-index: 2;
   }
   .absolute-foto-wrapper {
-    left: 6%;
+    left: 10%;
     top: 27%;
     width: 90%;
     z-index: -1;
   }
+
   .last-button-in-one-section {
     display: block;
     text-align: center;
