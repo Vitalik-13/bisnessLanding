@@ -49,6 +49,9 @@
   max-width: 1200px;
   padding: 0 15px;
 }
+.croste {
+  text-decoration: line-through;
+}
 .one-section-buttons {
   display: flex;
   align-items: center;
@@ -75,7 +78,7 @@
 /* .text-wrapper {
 } */
 .main-title {
-  font-family: "Cormorant Garamond";
+  font-family: "Cormorant";
   font-size: clamp(45px, 8vw, 90px);
   font-weight: 400;
   line-height: 93px;
