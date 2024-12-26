@@ -470,6 +470,10 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
+  .first-par {
+    background-color: transparent;
+    color: #ffff;
+  }
   .three-section-title {
     text-align: center;
   }
@@ -1039,13 +1043,10 @@
     display: none;
   }
 }
-@media (max-width: 500px) {
-  /* .nine-section-item-wrapper {
-    height: 450px;
-  } */
-  /* .nine-section-item {
-    height: 60px;
-  } */
+@media (max-width: 800px) {
+  .nine-section-item-wrapper {
+    height: max-content;
+  }
 }
 
 /* nine-section-end */
