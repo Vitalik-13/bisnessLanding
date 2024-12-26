@@ -958,6 +958,11 @@
   transition: all 0.5s ease;
   margin-bottom: 23px;
 }
+@media (max-width: 500px) {
+  .nine-section-item {
+    height: 60px;
+  }
+}
 .nine-section-wrapper {
   display: flex;
   justify-content: center;
@@ -1038,9 +1043,9 @@
   /* .nine-section-item-wrapper {
     height: 450px;
   } */
-  .nine-section-item {
+  /* .nine-section-item {
     height: 60px;
-  }
+  } */
 }
 
 /* nine-section-end */
